@@ -95,25 +95,10 @@
   <remove-project name="platform/hardware/qcom/sm8150/display" />
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <remove-project name="platform/packages/apps/Stk" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/platform_testing" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/build-tools" />
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/libufdt" />
-  <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
@@ -185,33 +170,16 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="spark" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
-  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
-  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="spark" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="spark" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="spark" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="evo" />
 
   <!-- Prebuilt repos -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" clone-depth="1" remote="github" revision="master" />
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" clone-depth="1" remote="evo" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="octavi" clone-depth="1" />
 
-  <!-- Services repos -->
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
-
   <!-- System repos -->
   <project path="system/bt" name="system_bt" remote="spark" />
   <project path="system/core" name="system_core" remote="spark" />
-  <project path="system/incremental_delivery" name="system_incremental_delivery" remote="spark" />
-  <project path="system/netd" name="system_netd" remote="spark" />
-  <project path="system/security" name="system_security" remote="spark" />
   <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="evo" />
   <project path="system/update_engine" name="system_update_engine" remote="spark" />
